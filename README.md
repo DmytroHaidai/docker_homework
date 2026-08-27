@@ -6,7 +6,8 @@ docker run --detach --name client --network my_net -v $(pwd):/scripts client:lat
 4.docker exec -it client ping -c 3 server \
 docker exec -it server ping -c 3 client \
 5.
-Check the server output:
-    docker logs server
-The server should receive:
-    Hello from client!
+Check the server output: \
+    docker logs server \
+The server should receive: \
+    Hello from client! \
+ 
