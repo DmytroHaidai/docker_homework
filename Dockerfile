@@ -1,0 +1,7 @@
+FROM alpine:latest
+
+RUN apk add --no-cache netcat-openbsd
+
+WORKDIR /scripts
+
+CMD ["sh"]
